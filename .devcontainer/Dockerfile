@@ -1,5 +1,5 @@
 # [Choice] CentOS version. See: https://hub.docker.com/_/centos/
-ARG VARIANT=latest
+ARG VARIANT=centos7
 FROM centos:${VARIANT}
 ENV container docker
 
